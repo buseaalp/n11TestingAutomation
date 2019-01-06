@@ -47,8 +47,8 @@ public class test_case {
 	public static void login() throws InterruptedException {
 		driver.findElement(By.className("btnSignIn")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.id("email")).sendKeys("buseaalp@gmail.com");
-		driver.findElement(By.id("password")).sendKeys("1996bu");
+		driver.findElement(By.id("email")).sendKeys("mail@gmail.com");
+		driver.findElement(By.id("password")).sendKeys("password");
 		driver.findElement(By.id("loginButton")).click();
 		Thread.sleep(5000);
 		
